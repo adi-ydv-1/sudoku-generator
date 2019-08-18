@@ -14,8 +14,13 @@ public class suduko_solving
 		sudoko_generator s=new sudoko_generator();
 		input();
 		s.display(suduko);
-		solve();
-		s.display(suduko);		
+		if(solve())
+		{
+		System.out.println("Your solved suduko is:");
+		s.display(suduko);	
+		}
+		else
+			System.out.println("cannot be solved");
 		}
 	public static void input()
 	{
