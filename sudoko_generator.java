@@ -10,14 +10,15 @@ public class sudoko_generator
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-//		diagonal();
-//		display();
-//		non_diagonal();
-//		display();
-//		System.out.println("Enter the no of zero you want");
-//		int n=sc.nextInt(); 
-//		make_zero(n);
-//		display();
+		
+		
+		diagonal();
+		non_diagonal();
+		display();
+		System.out.println("Enter the no of zero you want");
+		int n=sc.nextInt(); 
+		make_zero(n);
+		display();
 
 	}
 	public static int[][] get_suduko()
